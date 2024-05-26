@@ -7,7 +7,7 @@ router = routers.DefaultRouter()
 router.register(r'api_backen', views.restauranteView, 'api_backen' )
 
 urlpatterns = [
-    path("", include (router.urls) ),
+    path("api/", include (router.urls) ),
    
     
 ]

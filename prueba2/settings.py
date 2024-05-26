@@ -136,5 +136,7 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    "https://zealous-forest-0b8d4c40f.5.azurestaticapps.net"
+    "https://zealous-forest-0b8d4c40f.5.azurestaticapps.net",
+    "https://your-production-frontend-url.com",
 ]
+CORS_ALLOW_ALL_ORIGINS = True
