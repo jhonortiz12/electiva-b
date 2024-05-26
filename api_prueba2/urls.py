@@ -4,7 +4,7 @@ from api_prueba2 import views
 
 
 router = routers.DefaultRouter()
-router.register(r'api_backen', views.restauranteView, 'api_backen' )
+router.register(r'restaurante', views.restauranteView, 'restaurante' )
 
 urlpatterns = [
     path("api/", include (router.urls) ),
